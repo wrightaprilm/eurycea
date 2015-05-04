@@ -1,5 +1,5 @@
 import re
-
+import sys
 repl={1:'Dolan_Falls_Pres',
 2:'Bear_Crk_Spg',
 3:'Boardhouse_Spgs',
@@ -99,9 +99,9 @@ repl={1:'Dolan_Falls_Pres',
 96:'Bat_Well_Cave',
 97:'Spillar_Ranch_Spg',
 98:'Taylor_Spg'}
-f=open("infile.nex",'r')
+f=open(sys.argv[1],'r')
 location = f.readlines()
-with open("out.txt", "wt") as fout:
+with open(sys.argv[2], "wt") as fout:
     for item in location:
         if item.strip().split('    ')[0].isdigit():
                 a = item.strip().split('    ')[0]
