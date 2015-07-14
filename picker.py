@@ -1,5 +1,8 @@
 import sys
 import re
+#Author: April Wright
+#Usage: python picker.py list_of_samples input_file_in_str
+# List of samples should be a text file, one line per taxon. No spaces in taxon labels. No characters other than return.
 desired_samples = open(sys.argv[1])
 input_str = open(sys.argv[2])
 output_file = sys.argv[3]
