@@ -1,0 +1,3 @@
+
+process_radtags -b ./barcodes_pool1.txt -o ./read1_proc/ \
+ -q -D -w 0.15 -s 10 --inline_index --renz_1 sphI --renz_2 sbfI -f ./JA14300_dd$

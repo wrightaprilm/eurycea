@@ -1,0 +1,1 @@
+populations -b 323 -m 3 -p 20 -P ./ustacks_323 -M total_bc_popmap -t 24 --structure --phylip --genomic
