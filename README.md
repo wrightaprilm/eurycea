@@ -1,4 +1,9 @@
-# eurycea
+# Eurycea Genomics Project
+
+Find a phylogenetics-focused workshop using these data [here](https://github.com/wrightaprilm/BodegaBayWorkshop)  
+Find a data matrix assembly-focused workshop [here](https://github.com/wrightaprilm/ISU-01-06 )
+
+
 Files for eurycea project. Descriptions follow:
 
 + JA14300popmap, JA14785popmap and total_popmap: Barcodes sorted by individual, for each
